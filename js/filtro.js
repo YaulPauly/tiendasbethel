@@ -22,12 +22,7 @@ $(document).ready(function(){
             //MOSTRANDO PRODUCTOS
             $('.product_item[category="'+catProduct+'"]').show();
        }
-
-       
-
-    });
-    
-   
+    });   
 });   
 
 
