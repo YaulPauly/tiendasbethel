@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiendas Bethel</title>
-    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footers.css">
     <link rel="stylesheet" href="css/producto.css">
-    
+    <link rel="stylesheet" href="css/nosotros.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">  
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/> 
 
 </head>
 <body>
-    <header> 
+    <header id="main-header"> 
         <nav class="navegador">
                 <input type="checkbox" id="check">
                 <label for="check" class="checkbtn">

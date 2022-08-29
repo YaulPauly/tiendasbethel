@@ -27,10 +27,12 @@
         </div>    
    
     </footer>
+
 <script src="js/jquery-3.6.0.js"></script>
 <script src="js/filtro.js"></script>
 <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/sliders.js"></script>
    
 </body>
 </html>

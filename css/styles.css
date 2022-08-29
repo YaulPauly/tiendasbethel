@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.heading-title{
+    font-size: 3rem;
+    
+    text-align: center;
+    margin: 3rem 0;
+    text-transform: uppercase;   
+    
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px 10%;
+}
+.box {
+    margin: 10px 20px;
+}
+.box img {
+    height: 20rem;
+}
+ .box h3 {
+    text-align: center;
+    padding: 10px 0;
+}
+

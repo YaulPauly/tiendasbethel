@@ -14,19 +14,24 @@ nav {
 
 .enlace {
     position: absolute;
-    padding: 20px 50px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 80px;
 }
 
 .logo {
 
-    height: 40px;
-    margin-left: 40px;
+    height: 80px;
+    
 }
 
 nav ul {
 
-    float: right;
-    margin-right: 40px;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin-right: 80px;
 }
 
 nav ul li {
@@ -47,7 +52,7 @@ nav ul li a {
 }
 
 li a.active, li a:hover {
-    background: #424040;
+    color: #b78400;
     transition: .5s;
 }
 
@@ -62,35 +67,59 @@ li a.active, li a:hover {
 
 }
 
-
 #check {
     display: none;
 }
 
-section{
-    
+.swiper .swiper-wrapper{
     background-size: cover;
     background-position: center center; 
 }
 
-section img {
+.swiper-wrapper .swiper-slide  img{
     width: 100%;
+    height: calc(100vh - 80px);
+}
+
+@media (max-width: 1400px){
+    .swiper-wrapper .swiper-slide  img{
+        height: auto;
+    }
 }
 
 @media (max-width: 952px){
+    .logo {
+
+        height: 60px;
+        margin: 10px 0;
+    }
     .enlace{
-        padding-left: 20px;
+        margin:0 30px;
     }
     nav ul li a{
         font-size: 16px;
+    }
+    .swiper-wrapper .swiper-slide  img{
+        height: auto;
     }
 }
 
 
 @media (max-width: 858px){
+   
+    .logo {
+
+        height: 60px;
+        margin: 10px 0;
+    }
     .checkbtn{
         display: block;
     }
+    .swiper-wrapper .swiper-slide  img{
+        height: auto;
+        z-index: -1;
+    }
+
     ul{
         position: fixed;
         width: 100%;
@@ -100,6 +129,11 @@ section img {
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 2;
+    }
+    nav ul {
+       display: block;
+       margin-right: 80px;
     }
     nav ul li{
         display: block;
@@ -108,10 +142,11 @@ section img {
     }
     nav ul li a{
         font-size: 20px;
+        height: 100%;
     }
     li a:hover, li a.active{
         background: none;
-        color: blueviolet;
+        color: #b78400;
     }
     #check:checked ~ ul{
         left: 0;
