@@ -10,6 +10,8 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    min-height: calc(100vh - 401px);
+    padding-bottom: 20px;
 }
 
 .contenedor .text {

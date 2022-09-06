@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footers.css">
-    <link rel="stylesheet" href="css/producto.css">
+    <link rel="stylesheet" href="css/productos.css">
     <link rel="stylesheet" href="css/nosotros.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
